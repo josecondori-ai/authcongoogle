@@ -59,9 +59,11 @@
             <li><a href="/">Inicio</a></li>
             <li><a href="/profile">profile</a></li>
         </ul>
+        <p>usted es <%=user.username %></p>
     </nav>
     <main>
-        <a class="google-btn" href="/auth/google">Google</a>
+       <h1>Bienvenido tu perfil es ,<%=user.username %></h1>
+       <img class="image" src=<%= user.thumbnail%> alt="">
     </main>
 </body>
 </html>
